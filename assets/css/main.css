@@ -2115,7 +2115,16 @@ input, select, textarea {
 			.main.style1 {
 				padding: 4em 15px 4em 15px;
 			}
-
+			
+			#intro {
+				padding: 0px;
+				content:url(images/informacion.jpg)
+				
+					
+				}
+				
+			}
+ 
 				.main.style1 h2 {
 					font-size: 3em;
 				}
@@ -2242,15 +2251,37 @@ input, select, textarea {
 		}
 
 /* Intro */
-
 	#intro {
 		background-image: url(images/header.jpg);
 		background-size: cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
 		background-repeat: no-repeat;
+		width: 100%;
+		
 	}
 
+
+/*
+@media screen and (max-widht: 767px){
+	#intro{
+		background-image:url(images/header_mobile.jpg);
+	}
+}   
+
+@media (min-width: 992px){
+	#intro {
+		background-image:url(images/header_mobile.jpg);
+	}
+}
+
+@media (min-width: 1200px){
+	#intro{
+		background-image:url(images/header.jpg);
+	}
+}
+
+*/
 /* One */
 
 	#one {
